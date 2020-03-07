@@ -5,10 +5,10 @@ function paragraphSelector(){
 
 
 function lastImageSelector(){
-  $("img:last")[0]
+  return $("img:last")[0]
 }
 
 
 function ninjaBabySelector(){
-  $("#baby-ninja")[0]
+  return $("#baby-ninja")[0]
 }
