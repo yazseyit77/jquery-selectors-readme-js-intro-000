@@ -15,5 +15,5 @@ function ninjaBabySelector(){
 
 
 function divSelector(){
-  return $("div")
+  return $("div[0][1]")
 }
