@@ -15,7 +15,7 @@ function ninjaBabySelector(){
 
 
 function divSelector(){
-  return $("div img:first-child:second-child")
+  return $("div img:first-child, img:second-child")
 }
 
 function firstListItem(){
